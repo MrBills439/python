@@ -1,3 +1,4 @@
-course = "Python Programming"
-print(len(course))
-print(course[0])
+first = "felix"
+last = "bills"
+full = first + " " + last
+print(full)
