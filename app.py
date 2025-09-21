@@ -1,4 +1,4 @@
-first = "felix"
-last = "bills"
-full = first + " " + last
-print(full)
+course = "python Programming"
+print(course.upper())
+print(course)
+print(course.strip())
