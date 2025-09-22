@@ -31,4 +31,20 @@ print(tip)
 #1.8
 #(Fahrenheit−32)
 
+temp_f = 56
+temp_c = (temp_f - 32) / 1.8
 
+print(temp_c)
+
+score = 2 ** 2
+score = 2 ** 3 
+score = 2 ** 4
+
+print(score)
+
+weight = 92.3
+height = 1.86
+
+bmi = weight / (height**2)
+
+print(bmi)
