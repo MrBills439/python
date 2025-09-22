@@ -53,3 +53,20 @@ print(bmi)
 
 username = input('Enter your name: ')
 print(f"Your name is {username}")
+
+username = input('Enter your name: ')
+
+print(username)
+
+
+age = int(input('what is your age? '))
+
+print(age)
+
+
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
+
+c = (a**1 + b**2) ** 0.5
+print(c)
+
