@@ -48,3 +48,8 @@ height = 1.86
 bmi = weight / (height**2)
 
 print(bmi)
+
+
+
+username = input('Enter your name: ')
+print(f"Your name is {username}")
