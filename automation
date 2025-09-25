@@ -11,3 +11,9 @@ def get_aws_status():
             return "⚠️ AWS status page returned non-200"
     except Exception as e:
         return f"❌ Error: {str(e)}"
+def write_report(content):
+    date = datetime.utcnow().strftime("%Y-%m-%d")
+    filename = f"reports/{date}.md"
+    with open(filename, "w") as f:
+        f.write(f"# Cloud Status Report - {date}\n\n")
+        f.write(content)
