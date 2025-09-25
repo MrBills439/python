@@ -1,2 +1,13 @@
 import requests
 from datetime import datetime
+
+def get_aws_status():
+    url = "https://status.aws.amazon.com/data.json"
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return "✅ AWS status page reachable"
+        else:
+            return "⚠️ AWS status page returned non-200"
+    except Exception as e:
+        return f"❌ Error: {str(e)}"
