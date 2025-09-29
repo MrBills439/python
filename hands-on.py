@@ -64,9 +64,20 @@ age = int(input('what is your age? '))
 print(age)
 
 
-a = int(input('Enter a: '))
-b = int(input('Enter b: '))
+#a = int(input('Enter a: '))
+#b = int(input('Enter b: '))
+#
+#c = (a**1 + b**2) ** 0.5
+#print(c)
 
-c = (a**1 + b**2) ** 0.5
-print(c)
 
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+root1 = (-b + (b*b - 4*a*c)**0.5) / (2*a)
+root2 = (-b - (b*b - 4*a*c)**0.5) / (2*a)
+
+print(root1)
+print(root2)
