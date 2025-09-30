@@ -50,3 +50,42 @@ elif answer == 4:
   gryffindor = gryffindor + 2
 else:
   print('Wrong input.')
+
+
+  # ~~~~~~~~~~~~~~~ Question 3 ~~~~~~~~~~~~~~~
+
+print('\nQ3) Which kind of instrument most pleases your ear?')
+
+print('  1) The violin')
+print('  2) The trumpet')
+print('  3) The piano')
+print('  4) The drum')
+
+answer = int(input('Enter your answer (1-4): '))
+
+if answer == 1:
+  slytherin = slytherin + 4
+elif answer == 2:
+  hufflepuff = hufflepuff + 4
+elif answer == 3:
+  ravenclaw = ravenclaw + 4
+elif answer == 4:
+  gryffindor = gryffindor + 4
+else:
+  print('Wrong input.')
+  
+print("Gryffindor: ", gryffindor)
+print("Ravenclaw: ", ravenclaw)
+print("Hufflepuff: ", hufflepuff)
+print("Slytherin: ", slytherin)
+
+# Bonus Part
+
+if gryffindor >= ravenclaw and gryffindor >= hufflepuff and gryffindor >= slytherin:
+  print('🦁 Gryffindor!')
+elif ravenclaw >= hufflepuff and ravenclaw >= slytherin:
+  print('🦅 Ravenclaw!')
+elif hufflepuff >= slytherin:
+  print('🦡 Hufflepuff!')
+else:
+  print('🐍 Slytherin!')
