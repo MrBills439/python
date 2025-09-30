@@ -11,3 +11,14 @@ elif grade > 50:
     print('E')
 else:
     print('F')
+
+
+
+
+ph = int(input("Enter a ph valeu(0-4): "))
+if ph > 7:
+    print('Basic')
+elif ph < 7:
+    print('Acidic')
+else:
+    print('Natural')
