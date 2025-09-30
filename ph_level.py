@@ -15,7 +15,7 @@ else:
 
 
 
-ph = int(input("Enter a ph valeu(0-4): "))
+ph = int(input("Enter a ph valeu(0-14): "))
 if ph > 7:
     print('Basic')
 elif ph < 7:
